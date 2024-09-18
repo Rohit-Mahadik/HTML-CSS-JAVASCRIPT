@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    font-family: "Roboto";
+    
+}
+
+
+.maindiv{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 600px;
+   
+}
+.maindiv form{
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    height: 300px;
+    
+}
+
+.tablesdata{
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 300px;
+    width: 600px;
+    overflow-y: scroll;
+    margin: 0 auto;
+}
+
+.tablesdata .table{
+    margin: 0 auto;
+    width: 95%;
+}
+
+#deletebtn{
+    border: none;
+    font-size: 25px;
+    height: 100%;
+}
